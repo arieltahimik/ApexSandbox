@@ -7,5 +7,5 @@
 **003 - Sum Equals**  
 **004 - Ascending Order**  
 **005 - A or An**  
-**006 - Largest of Three**
+**006 - Largest of Three**  
 **007 - Tip Calculator**  
