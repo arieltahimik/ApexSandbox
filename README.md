@@ -8,3 +8,4 @@
 **004 - Ascending Order**  
 **005 - A or An**  
 **006 - Largest of Three**
+**007 - Tip Calculator**  
