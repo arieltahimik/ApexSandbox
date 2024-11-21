@@ -24,3 +24,4 @@
 **020 - Name from Email**  
 **021 - Change Time Format**  
 **022 - Fibonacci**  
+**023 - Next Prime**  
