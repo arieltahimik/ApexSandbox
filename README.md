@@ -30,3 +30,4 @@
 ## Database 101
 
 **025 - Insert Student**  
+**026 - Insert Course**  
