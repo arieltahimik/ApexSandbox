@@ -37,3 +37,4 @@
 **030 - Students Missing Info**  
 **031 - Course and Class**  
 **032 - Student List**  
+**033 - Class from Course**  
