@@ -44,3 +44,4 @@
 
 **035 - sObject Type**  
 **036 - Convert 15-digit ID to 18-digit ID**  
+**037 - Handle Exception**  
