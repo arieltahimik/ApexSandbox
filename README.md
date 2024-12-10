@@ -48,3 +48,4 @@
 **038 - Throw An Exception**  
 **039 - Safe Navigation Operator**  
 **040 - Dynamic Field Values**  
+**041 - Serialize sObjects**  
