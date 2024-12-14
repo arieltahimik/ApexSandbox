@@ -13,7 +13,13 @@
 
 
 public List<Account> getAccountsFromJSONString(String inputJSON){
-    return String.isBlank(inputJSON) ? null : (List<Account>)JSON.deserialize (inputJSON,List<Account>.class);
+    //return String.isBlank(inputJSON) ? null : (List<Account>)JSON.deserialize (inputJSON,List<Account>.class);
+    //-or-
+    if (!String.isBlank(inputJSON)) {
+        return (List<Account>)JSON.deserialize(inputJSON,List<Account>.class);
+    } else {
+        return null;
+    }
 }
 
 
