@@ -58,3 +58,4 @@
 ## SObjects
 
 **047 - Duplicate Contacts**  
+**048 - Account Rating**  
