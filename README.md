@@ -60,3 +60,4 @@
 **047 - Duplicate Contacts**  
 **048 - Account Rating**  
 **049 - Contact Birthday**  
+**050 - Key Account**  
