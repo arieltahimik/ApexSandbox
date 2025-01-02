@@ -70,3 +70,4 @@
 ## Lists
 
 **056 - Sorting a List**  
+**057 - Array Sum**  
