@@ -71,4 +71,5 @@
 
 **056 - Sorting a List**  
 **057 - Array Sum**  
-**058 -  Count Target in List**  
+**058 - Count Target in List**  
+**059 - Last Occurrence**  
