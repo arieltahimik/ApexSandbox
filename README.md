@@ -75,3 +75,4 @@
 **059 - Last Occurrence**  
 **060 - Even Numbers**  
 **061 - Largest Element**  
+**062 - Positive Integers**  
