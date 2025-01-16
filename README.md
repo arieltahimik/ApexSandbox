@@ -76,3 +76,4 @@
 **060 - Even Numbers**  
 **061 - Largest Element**  
 **062 - Positive Integers**  
+**063 - Consecutive Ones**  
