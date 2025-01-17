@@ -77,3 +77,4 @@
 **061 - Largest Element**  
 **062 - Positive Integers**  
 **063 - Consecutive Ones**  
+**064 - Number Average**  
