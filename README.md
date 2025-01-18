@@ -78,3 +78,4 @@
 **062 - Positive Integers**  
 **063 - Consecutive Ones**  
 **064 - Number Average**  
+**065 - Insert at Beginning**  
