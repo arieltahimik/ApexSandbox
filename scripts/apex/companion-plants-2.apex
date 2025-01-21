@@ -46,12 +46,39 @@ public Boolean companionPlants(List<String> plants) {
 }
 
 /*
+* Test 1
+Boolean result = companionPlants(new List<String> { 'onions', 'lettuce',  'onions', 'onions', 'lettuce', 'cucumbers'});
+System.assertEquals(false, result, 'Two onions planted together are not companions');
 
-lettuce and cucumbers
-lettuce and onions
+* Test 2
+Boolean result = companionPlants(new List<String> { 'lettuce', 'lettuce',  'onions', 'tomatoes', 'onions', 'lettuce', 'cucumbers'});
+System.assertEquals(false, result, 'Two lettuce planted together are not companions');
 
-onions and lettuce
-onions and carrots
-onions and tomatoes
+* Test 3
+Boolean result = companionPlants(new List<String> { 'onions', 'lettuce',  'onions', 'tomatoes', 'onions', 'lettuce', 'tomatoes'});
+System.assertEquals(false, result, 'Lettuce and tomatoes are not companions, but are planted together');
 
+* Test 4
+Boolean result = companionPlants(new List<String> { 'tomatoes', 'lettuce' });
+System.assertEquals(false, result, 'Tomatoes and lettuce are not companions, but are planted together');
+
+* Test 5
+Boolean result = companionPlants(new List<String> { 'tomatoes', 'onions' });
+System.assertEquals(true, result, 'Tomatoes and onions are companion plants');
+
+* Test 6
+Boolean result = companionPlants(new List<String> { 'tomatoes' });
+System.assertEquals(false, result, 'A plant on its own means it is not planted next to a companion');
+
+* Test 7
+Boolean result = companionPlants(new List<String> { 'onions' });
+System.assertEquals(false, result, 'A plant on its own means it is not planted next to a companion');
+
+* Test 8
+Boolean result = companionPlants(new List<String> { });
+System.assertEquals(true, result, 'No plants means our condition is true: all plants are next to a companion plant if there are no plants. In logic, such statements are called vacuously true. I am sorry for this test case. Just return true if the array has size 0.');
+
+* Test 9
+Boolean result = companionPlants(new List<String> { 'onions', 'lettuce',  'onions', 'carrots', 'onions', 'cucumbers', 'lettuce', 'onions', 'tomatoes'});
+System.assertEquals(false, result, 'Onions and cucumbers are not companions but are planted together.');
 */
