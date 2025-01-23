@@ -19,14 +19,12 @@ public List<Integer> fibonacciSeries(Integer n) {
         fibSeries.add(1);
         fibSeries.add(1);
     } else {
-        if (n>=3) {
-            fibSeries.add(1);
-            fibSeries.add(1);
-            for (Integer i=3; i <= n; i++) {
-                curr += prev;
-                prev = curr - prev;
-                fibSeries.add(curr);
-            }
+        fibSeries.add(1);
+        fibSeries.add(1);
+        for (Integer i=3; i <= n; i++) {
+            curr += prev;
+            prev = curr - prev;
+            fibSeries.add(curr);
         }
     }
     return fibSeries;
