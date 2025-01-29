@@ -89,3 +89,4 @@
 ## Sets
 
 **072 -  Union**  
+**073 -  Intersection**  
