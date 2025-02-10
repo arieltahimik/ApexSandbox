@@ -101,3 +101,7 @@
 **079 - Phone to Account**  
 **080 - Industry Summary**  
 **081 - Cases by Type**  
+
+## Data Structures & Algorithms
+
+**082 - Implement A Stack**  
