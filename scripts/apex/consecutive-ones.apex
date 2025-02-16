@@ -20,7 +20,9 @@ public Integer maxConsecutiveOnes(Integer[] numbers) {
         if (num==1) {
             seq += 1;
         } else {
-            lastCount = seq;
+            if (seq > lastCount) {  // Added to check for sequences 
+                lastCount = seq;    // in the middle - Test #6
+            }
             seq = 0;
         }
     }
@@ -51,4 +53,8 @@ System.assertEquals(0, result, 'There is no consecutive 1');
 * Test 5
 Integer result = maxConsecutiveOnes(new Integer[]{1,1,0,1,1});
 System.assertEquals(2, result, 'There are 2 consecutive 1');
+
+* Test 6 - Added this to check for sequences in the middle
+Integer result = maxConsecutiveOnes(new Integer[]{0,1,1,1,2,1,1,4});
+System.assertEquals(3, result, 'There are 3 consecutive 1');
 */
