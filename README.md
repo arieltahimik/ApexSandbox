@@ -108,3 +108,4 @@
 **083 - Implement A Singly Linked List**  
 **084 - Valid Palindrome**  
 **085 - Merge Two Sorted Lists**  
+**086 - Binary Search Opportunites**  
