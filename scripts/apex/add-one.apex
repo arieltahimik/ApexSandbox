@@ -30,13 +30,6 @@
 
 
 public void plusOne(List<Integer> numbers) {
-    // code here
-    // if (numbers == null || numbers.isEmpty()) {
-    //     numbers.clear(); 
-    //     numbers.add(1); // Edge case: Modify list to [1] instead of returning a new list
-    //     return;
-    // }
-
     Integer carry = 1; // Start with 1 to add
     for (Integer i = numbers.size() - 1; i >= 0; i--) {
         Integer sum = numbers.get(i) + carry; // Get the current digit
@@ -52,6 +45,23 @@ public void plusOne(List<Integer> numbers) {
     if (carry > 0) {
         numbers.add(0, carry);
     }
+
+    // -OR-
+    // Another solution
+    
+    /**
+    // loop backwards (right to left)
+    for (Integer i=numbers.size() - 1; i >= 0; i--) {        
+        numbers[i]++;               // add 1 to current element        
+        if (numbers[i] <= 9) { 
+            return;                 // if current element is < 10 (no carry) simply return
+        } else {
+            numbers[i] = 0;         // else turn it to 0 and process next element (backwards)
+        }
+    }
+    numbers.add(0, 1);              // insert 1 as first element
+    */
+
 }
 
 
