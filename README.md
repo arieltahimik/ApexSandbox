@@ -115,3 +115,4 @@
 **090 - Reverse Words In String**  
 **091 - Buy Low and Sell High**  
 **092 - Square a Sorted List** 
+**093 - Segregate Even and Odd Numbers**  
