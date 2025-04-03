@@ -118,3 +118,4 @@
 **093 - Segregate Even and Odd Numbers**  
 **094 - Balanced Parentheses**  
 **095 - Defragging**  
+**096 - Two Sum**  
